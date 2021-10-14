@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "new-app",
-    "slug": "new-app",
+    "name": "e-commerce-assignment",
+    "slug": "e-commerce-assignment",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

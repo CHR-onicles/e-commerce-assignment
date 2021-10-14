@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 // import { hot } from 'react-hot-loader';
-import { StyleSheet, View, Platform } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
@@ -15,7 +15,7 @@ export default function App() {
   return (
     <View style={{flex: 1}}>
       <NavigationContainer>
-        <mainNavigator.Navigator  screenOptions={{headerShown: false}} initialRouteName="Home">
+        <mainNavigator.Navigator  screenOptions={{headerShown: false}} initialRouteName="home">
           <mainNavigator.Screen name="Home" component={Home}/>
           <mainNavigator.Screen name="Login" component={Login} />
         </mainNavigator.Navigator>

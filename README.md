@@ -1,14 +1,14 @@
-# React Native Ass 1
+# React Native Assignment 1
 
-This is the first React Native assignment
+React Native assignment 1 - CSCD 322 Web Tech
 
 ## Screenshots
 
 ### Login
-<img src='./screenshots/login_screen.png' width=414 alt='Screenshot of Login screen'>
+<img src='./screenshots/login_screen.png' width=375 alt='Screenshot of Login screen'>
 
 ### Home
-<img src='./screenshots/home_screen.png' width=414 alt='Screenshot of Home screen'>
+<img src='./screenshots/home_screen.png' width=375 alt='Screenshot of Home screen'>
 
 ### Cart
-<img src='./screenshots/cart_screen.png' width=414 alt='Screenshot of Cart screen'>
+<img src='./screenshots/cart_screen.png' width=375 alt='Screenshot of Cart screen'>

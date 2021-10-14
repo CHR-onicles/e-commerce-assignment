@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Text, Image, StyleSheet, ScrollView} from 'react-native';
-import { Ionicons, AntDesign } from '@expo/vector-icons';
+import { Ionicons, AntDesign, Foundation } from '@expo/vector-icons';
 import Card from '../components/Card'
 import Tab from '../components/BottomTab'
 import Container from '../components/Container'
@@ -38,7 +38,8 @@ export default function Home(){
             {/* <Card name={"Norco"} price={"1000.00"} wishlist={false}/> */}
             </View>
 
-            <Tab/>
+            {/* <Tab leftIcon={<Foundation name="home" size={24} color="#f17827" />} rightIcon={<SimpleLineIcons name="handbag" size={24} color="rgba(0,0,0,.6)" />}/> */}
+            <Tab homeActive={true}/>
         </Container>
     )
 }

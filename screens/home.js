@@ -1,18 +1,20 @@
 import React from 'react';
 import {View, Text, Image, StyleSheet, ScrollView} from 'react-native';
 import { Ionicons, AntDesign } from '@expo/vector-icons';
-import Card from '../components/card'
-import Tab from '../components/bottomTab'
+import Card from '../components/Card'
+import Tab from '../components/BottomTab'
+import Container from '../components/Container'
 
 export default function Home(){
     return (
-        <View style={{ width: '90%', marginHorizontal: 'auto'}}>
+        <Container>
             <View style={{flexDirection: 'row', marginTop: 20, marginBottom: 10}}>
-            <Ionicons name="menu-outline" size={24} color="black" />
-            <Ionicons name="ios-bicycle-outline" size={24} color="black" style={{marginHorizontal: 'auto'}}/>
-            <Ionicons name="search-outline" size={24} color="black" style={{marginHorizontal: 5}}/>
-            <Ionicons name="notifications-outline" size={24} color="black" />
+                <Ionicons name="menu-outline" size={24} color="black" />
+                <Ionicons name="ios-bicycle-outline" size={24} color="black" style={{marginHorizontal: 'auto'}}/>
+                <Ionicons name="search-outline" size={24} color="black" style={{marginHorizontal: 5}}/>
+                <Ionicons name="notifications-outline" size={24} color="black" />
             </View>
+
             <Text style={{marginVertical: 10, fontSize: 18, fontWeight: 500, color: 'rgba(0,0,0, .4)'}}>The world's <Text style={{fontSize: 20, fontWeight: 700, color:'#f17827'}}>Best Bikes</Text></Text>
             <Text style={{fontSize: 18, fontWeight: 700, color: 'rgba(0,0,0, .8)'}}>Categories</Text>
             <ScrollView horizontal={true}>
@@ -37,7 +39,7 @@ export default function Home(){
             </View>
 
             <Tab/>
-        </View>
+        </Container>
     )
 }
 

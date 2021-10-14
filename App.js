@@ -7,6 +7,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import Login from './screens/login';
 import Home from './screens/home';
+import Cart from './screens/cart';
 
 // function App() {
 export default function App() {
@@ -15,9 +16,10 @@ export default function App() {
   return (
     <View style={{flex: 1}}>
       <NavigationContainer>
-        <mainNavigator.Navigator  screenOptions={{headerShown: false}} initialRouteName="Home">
+        <mainNavigator.Navigator  screenOptions={{headerShown: false}} initialRouteName="Cart">
           <mainNavigator.Screen name="Home" component={Home}/>
           <mainNavigator.Screen name="Login" component={Login} />
+          <mainNavigator.Screen name="Cart" component={Cart} />
         </mainNavigator.Navigator>
       </NavigationContainer>
     </View>

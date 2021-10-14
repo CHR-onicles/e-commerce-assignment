@@ -2,6 +2,9 @@
 
 React Native assignment 1 - CSCD 322 Web Tech
 
+## Original Design
+<img src='./screenshots/power-bike-shop.jpg' width=800 alt='Original ecommerce shop design'>
+
 ## Screenshots
 
 ### Login

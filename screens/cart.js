@@ -26,7 +26,13 @@ export default function Cart({navigation}){
                 <CartItem name={"Norco"} type={"Urban"} price={"666.00"}/>
             </View>
 
+            <View>
 
+            </View>
+
+            <TouchableOpacity style={{paddingVertical: 15, paddingHorizontal: 50, backgroundColor: '#fa6401', borderRadius: 5, width: 'min-content', marginHorizontal: 'auto'}}>
+                <Text style={{fontSize: 18,fontWeight: 700, textAlign: 'center', color: 'white', whiteSpace: 'nowrap'}}>Proceed to Checkout</Text>
+            </TouchableOpacity>
             <Tab />
         </Container>
     )

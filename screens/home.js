@@ -32,10 +32,10 @@ export default function Home(){
             <Card name={"Brompton"} price={"2300.00"} wishlist={false} />
             <Card name={"Schwinn"} price={"5500.00"} wishlist={false}/>
             <Card name={"Norco"} price={"1000.00"} wishlist={false}/>
-            <Card name={"Norco"} price={"1000.00"} wishlist={false}/>
-            <Card name={"Norco"} price={"1000.00"} wishlist={false}/>
-            <Card name={"Norco"} price={"1000.00"} wishlist={false}/>
-            <Card name={"Norco"} price={"1000.00"} wishlist={false}/>
+            {/* <Card name={"Norco"} price={"1000.00"} wishlist={false}/> */}
+            {/* <Card name={"Norco"} price={"1000.00"} wishlist={false}/> */}
+            {/* <Card name={"Norco"} price={"1000.00"} wishlist={false}/> */}
+            {/* <Card name={"Norco"} price={"1000.00"} wishlist={false}/> */}
             </View>
 
             <Tab/>

@@ -26,8 +26,19 @@ export default function Cart({navigation}){
                 <CartItem name={"Norco"} type={"Urban"} price={"666.00"}/>
             </View>
 
-            <View>
-
+            <View style={{backgroundColor: 'rgba(0,0,0,.05)', borderRadius: 15, paddingVertical: 20, paddingHorizontal: 20, marginVertical: 20}}>
+                <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
+                    <Text style={{fontSize: 17, color: 'rgba(0,0,0,.5)', fontWeight: 500}}>Subtotal</Text>
+                    <Text style={{fontSize: 17, fontWeight: 600, color: '#f17827'}}>$<Text style={{color: '#000', fontSize: 20}}>3,400.00</Text></Text>
+                </View>
+                <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
+                    <Text style={{fontSize: 17, color: 'rgba(0,0,0,.5)', fontWeight: 500}}>Shipping</Text>
+                    <Text style={{fontSize: 17, fontWeight: 600, color: '#f17827'}}>$<Text style={{color: '#000', fontSize: 20}}>1,000.00</Text></Text>
+                </View>
+                <View style={{flexDirection: 'row', justifyContent: 'space-between', marginVertical: 15}}>
+                    <Text style={{fontSize: 17, fontWeight: 700}}>Total</Text>
+                    <Text style={{fontSize: 17, fontWeight: 700, color: '#f17827'}}>$ <Text style={{color: '#000', fontSize: 20}}>4,400.00</Text></Text>
+                </View>
             </View>
 
             <TouchableOpacity style={{paddingVertical: 15, paddingHorizontal: 50, backgroundColor: '#fa6401', borderRadius: 5, width: 'min-content', marginHorizontal: 'auto'}}>
